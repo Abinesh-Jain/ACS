@@ -1,0 +1,12 @@
+table{
+    background-color: gray;
+}
+caption{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.head{
+    text-align: center;
+}
+.gender{
+    text-align: center;
+}
