@@ -1,0 +1,17 @@
+table{
+
+    border-collapse: collapse;
+}
+.head > td{
+text-align: center;
+font-weight: 800;
+}
+hr{
+    height: 1px solid ;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: skyblue;
+}
