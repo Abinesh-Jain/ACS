@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h3>PRODUCT ORDER FORM</h3>
+    <div class="form">
+        <form method="post" target="_blank">
+            <label for="fname">
+                <span class="fname">FIRST NAME</span>
+                <input type="text" name="fname" placeholder="Your First Name" required>
+            </label>
+            <label for="lname">
+                <span class="lname">LAST NAME</span>
+                <input type="text" name="lname" placeholder="Your Last Name" required>
+            </label>
+            <label for="email">
+                <span class="email">EMAIL ADDRESS</span>
+                <input type="email" name="email" placeholder="mail@example.com" required>
+            </label>
+            <label for="phone">
+                <span class="phone">PHONE NUMBER</span>
+                <select>
+                    <option value="+90">+90</option>
+                    <option value="+91">+91</option>
+                    <option value="+92">+92</option>
+                </select>
+                <input type="tel" name="phone" placeholder="??????????" required>
+            </label>
+            <label for="bill-address">
+                <span class="bill-address">BILLING ADDRESS</span>
+                <input type="text" name="bill-address" placeholder="Billing Address" required>
+            </label>
+            <label for="your-address">
+                <span class="your-address">YOUR ADDRESS</span>
+                <input type="text" name="your-address" placeholder="Your Address" required>
+            </label>
+            <label for="city">
+                <span class="city">CITY</span>
+                <input type="text" name="city" placeholder="Your City" required>
+            </label>
+            <label for="state">
+                <span class="state">STATE/PROVINCE</span>
+                <input type="text" name="state" placeholder="Your State or Province">
+            </label>
+            <label for="zip">
+                <span class="zip">ZIP CODE</span>
+                <input type="number" name="zip" placeholder="Zip Code" required>
+            </label>
+            <label for="country">
+                <span class="country">COUNTRY</span>
+                <input type="country" name="country" placeholder="Country">
+            </label>
+            <input class="submit" type="submit" value="PLACE ORDER" onclick="Your Order has Been Placed!">
+            <input class="reset" type="reset" value="RESET">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+body{
+    background-image: url(assets/cat.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+h3{
+    color: white;
+    text-align: center;
+}
+.form{
+    background-color: aliceblue;
+    opacity: .5;
+    margin: auto;
+    padding: 20px;
+    border-style:solid;
+    border-color: blue;
+    max-width: 80%;
+}
+.submit{
+    background-color: blue;
+    color: white;
+}
+.reset{
+    background-color: orange;
+    color: white;
+}
