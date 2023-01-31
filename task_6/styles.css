@@ -16,6 +16,28 @@ h3{
     border-color: blue;
     max-width: 80%;
 }
+.line_1,.line_4{
+    display:inline-flex;
+    width: 100%;
+}
+.line_2{
+    display:inline-flex;
+    width: 100%;
+}
+.line_3{
+    display:inline-flex;
+    width: 100%;
+}
+label{
+    width: 50%;
+    padding: 20px;
+}
+input{
+    float: right;
+}
+select{
+    float:right;
+}
 .submit{
     background-color: blue;
     color: white;
