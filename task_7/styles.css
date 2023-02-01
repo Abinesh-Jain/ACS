@@ -16,6 +16,24 @@ body{
     margin: 10px;
     border-radius: 10px 0% 0% 10px;
 }
+.task_access{
+    display: inline-flex;
+}
+i{
+    margin: auto;
+    color: blue;
+}
+.todays_task{
+    color: blue;
+    padding:0 20px;
+}
+ul{
+    margin-right: 100px;
+}
+li{
+    color: blue;
+    padding: 5px;
+}
 .right{
     width:70%;
     padding: 50px;
@@ -38,6 +56,7 @@ img{
     margin: 0;
 }
 hr{
+
     background-color: blue;
     border-color: blue;
     height: 2px;
