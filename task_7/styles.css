@@ -9,13 +9,98 @@ body{
     border-radius: 2%;
 }
 .left{
-    display: inline;
+    display: gird;
     background-color: white;
     width: 30%;
+    padding: 20px;
     margin: 10px;
-    border-radius: 2% 0% 0% 2%;
+    border-radius: 10px 0% 0% 10px;
 }
 .right{
     width:70%;
+    padding: 50px;
     margin: 10px;
+}
+.header{
+    display: flex;
+}
+img{
+    border-radius: 50%;
+    max-width: 100px;
+    max-height: 100px;
+}
+.header_div{
+    padding: 30px;
+    margin:auto 0 auto;
+}
+.left_headers{
+    color: blue;
+    margin: 0;
+}
+hr{
+    background-color: blue;
+    border-color: blue;
+    height: 2px;
+}
+.right_header{
+    color: white;
+    margin: 0;
+}
+.task_adder{
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    margin:50px auto;
+    background-color: white;
+}
+.next_task{
+    width: 80%;
+    border: none;
+    margin: auto;
+    
+}
+.red,.yellow,.green{
+    display: inline-flex;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    margin: auto;
+}
+.red{
+    background-color: red;
+    border-color: red;
+}
+.yellow{
+    background-color: yellow;
+    border-color: yellow;
+}
+.green{
+    background-color: green;
+    border-color: green;
+}
+.tasks{
+    display: inline-flex;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    margin: 5px;
+}
+.point{
+    display: inline;
+    width: 10%;
+    margin: auto 10px;
+}
+.task{
+    display: inline;
+    color: blue;
+    width: 60%;
+}
+.time{
+    display: inline;
+    color: blue;
+    width: 20%;
+}
+.check{
+    width: 10%;
+    margin: auto;
 }
