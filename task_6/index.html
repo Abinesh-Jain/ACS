@@ -30,14 +30,16 @@
                 </div>
             </div>
             <div class="row">
-                <div class="field">
+                <div class="field" id="ph">
                     <label for="phone">PHONE NUMBER<span>:</span></label>
-                    <select>
-                        <option value="+90">+90</option>
-                        <option value="+91">+91</option>
-                        <option value="+92">+92</option>
-                    </select>
-                    <input type="tel" name="phone" placeholder="??????????" required>
+                    <div class="phone_no">
+                        <select>
+                            <option value="+90">+90</option>
+                            <option value="+91">+91</option>
+                            <option value="+92">+92</option>
+                        </select>
+                        <input id="phone_number" type="tel" name="phone" placeholder="??????????" required>
+                    </div>
                 </div>
             </div>
             <div class="row" id="long">
@@ -80,4 +82,5 @@
     </div>
     <h4>&#169 Product Order Form. All Rights Reserved | Design by <a href="#">Abinesh</a></h4>
 </body>
+
 </html>

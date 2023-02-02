@@ -18,7 +18,7 @@ form{
     margin: auto;
     padding: 40px;
     border-style:solid;
-    border-color: blue;
+    border-color: white;
     width: 80%;
     height: 80%;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -37,26 +37,48 @@ form{
     display: flex;
     width: 100%;
 }
+#ph{
+    display: flex;
+    width: 100%;
+}
+.phone_no{
+    width: 50%;
+}
 label{
     color: white;
     padding-top: 5px;
     width: 40%;
 }
 input{
+    background-color: grey;
+    opacity: .75;
     width: 50%;
     height: 24px;
     float: right;
+    border-style: solid;
+    border-color: white;
 }
+::placeholder {
+    color: white;
+  }
 select{
+    width: 23%;
     height: 30px;
 }
+#phone_number{
+    width: 70%;
+}
 .submit{
-    margin: auto;
+    width:150px;
+    height: 30px;
+    margin: auto 0 auto auto;
     background-color: blue;
     color: white;
 }
 .reset{
-    margin: auto;
+    width:150px;
+    height: 30px;
+    margin: auto auto auto 0;
     background-color: orange;
     color: white;
 }
