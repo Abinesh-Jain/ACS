@@ -7,21 +7,63 @@ h3{
     color: white;
     text-align: center;
 }
-.form{
+.container{
+    width: 100%;
+    height: 100vh;
+}
+form{
     display: grid;
-    background-color: aliceblue;
-    opacity: .5;
+    background-color: grey;
+    opacity: .75;
     margin: auto;
-    padding: 20px;
+    padding: 40px;
     border-style:solid;
     border-color: blue;
-    max-width: 80%;
+    width: 80%;
+    height: 80%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    width: 100%;
+}
+#long{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.field{
+    display: flex;
+    width: 100%;
+}
+label{
+    color: white;
+    padding-top: 5px;
+    width: 40%;
+}
+input{
+    width: 50%;
+    height: 24px;
+    float: right;
+}
+select{
+    height: 30px;
 }
 .submit{
+    margin: auto;
     background-color: blue;
     color: white;
 }
 .reset{
+    margin: auto;
     background-color: orange;
     color: white;
+}
+h4{
+    color: white;
+    text-align: center;
+}
+a{
+    color: red;
 }
