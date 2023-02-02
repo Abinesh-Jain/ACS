@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,68 +8,76 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <h3>PRODUCT ORDER FORM</h3>
     <div class="form">
         <form method="post" target="_blank">
-            <div class="line_1">
-            <label for="fname">
-                <span class="fname">FIRST NAME</span>
-                <input type="text" name="fname" placeholder="Your First Name" required>
-            </label>
-            <label for="lname">
-                <span class="lname">LAST NAME</span>
-                <input type="text" name="lname" placeholder="Your Last Name" required>
-            </label>
+            <div class="row">
+                <div class="field">
+                    <label for="fname">FIRST NAME<span>:</span></label>
+                    <input type="text" name="fname" placeholder="Your First Name" required>
+                </div>
+                <div class="field">
+                    <label for="lname">LAST NAME<span>:</span></label>
+                    <input type="text" name="lname" placeholder="Your Last Name" required>
+                </div>
             </div>
-            <div class="line_2">
-            <label for="email">
-                <span class="email">EMAIL ADDRESS</span>
-                <input type="email" name="email" placeholder="mail@example.com" required>
-            </label>
-            <label for=""></label>
+            <div class="row">
+                <div class="field">
+                    <label for="email">EMAIL ADDRESS<span>:</span></label>
+                    <input type="email" name="email" placeholder="mail@example.com" required>
+                </div>
             </div>
-            <div class="line_3">
-            <label for="phone">
-                <span class="phone">PHONE NUMBER</span>
-                <select>
-                    <option value="+90">+90</option>
-                    <option value="+91">+91</option>
-                    <option value="+92">+92</option>
-                </select>
-                <input type="tel" name="phone" placeholder="??????????" required>
-            </label>
-            <label for=""></label>
+            <div class="row">
+                <div class="field">
+                    <label for="phone">PHONE NUMBER<span>:</span></label>
+                    <select>
+                        <option value="+90">+90</option>
+                        <option value="+91">+91</option>
+                        <option value="+92">+92</option>
+                    </select>
+                    <input type="tel" name="phone" placeholder="??????????" required>
+                </div>
             </div>
-            <div class="line_4">
-            <label for="bill-address">
-                <span class="bill-address">BILLING ADDRESS</span>
-                <input type="text" name="bill-address" placeholder="Billing Address" required>
-            </label>
+            <div class="row">
+                <div class="field">
+                    <label for="bill-address">BILLING ADDRESS<span>:</span></label>
+                    <input type="text" name="bill-address" placeholder="Billing Address" required>
+                </div>
             </div>
-            <label for="your-address">
-                <span class="your-address">YOUR ADDRESS</span>
-                <input type="text" name="your-address" placeholder="Your Address" required>
-            </label>
-            <label for="city">
-                <span class="city">CITY</span>
-                <input type="text" name="city" placeholder="Your City" required>
-            </label>
-            <label for="state">
-                <span class="state">STATE/PROVINCE</span>
-                <input type="text" name="state" placeholder="Your State or Province">
-            </label>
-            <label for="zip">
-                <span class="zip">ZIP CODE</span>
-                <input type="number" name="zip" placeholder="Zip Code" required>
-            </label>
-            <label for="country">
-                <span class="country">COUNTRY</span>
-                <input type="country" name="country" placeholder="Country">
-            </label>
-            <input class="submit" type="submit" value="PLACE ORDER" onclick="Your Order has Been Placed!">
-            <input class="reset" type="reset" value="RESET">
+            <div class="row">
+                <div class="field">
+                    <label for="your-address">YOUR ADDRESS<span>:</span></label>
+                    <input type="text" name="your-address" placeholder="Your Address" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="field">
+                    <label for="city">CITY<span>:</span></label>
+                    <input type="text" name="city" placeholder="Your City" required>
+                </div>
+                <div class="field">
+                    <label for="state">STATE/PROVINCE<span>:</span></label>
+                    <input type="text" name="state" placeholder="Your State or Province">
+                </div>
+            </div>
+            <div class="row">
+                <div class="field">
+                    <label for="zip">ZIP CODE<span>:</span></label>
+                    <input type="number" name="zip" placeholder="Zip Code" required>
+                </div>
+                <div class="field">
+                    <label for="country">COUNTRY<span>:</span></label>
+                    <input type="country" name="country" placeholder="Country">
+                </div>
+            </div>
+            <div class="row">
+                <input class="submit" type="submit" value="PLACE ORDER" onclick="Your Order has Been Placed!">
+                <input class="reset" type="reset" value="RESET">
+            </div>
         </form>
     </div>
 </body>
+
 </html>
