@@ -73,3 +73,26 @@
 .r6c1{
     background-color: yellow;
 }
+@media (max-width:768px){
+    .container{
+        grid-template-rows: 200px 200px 300px 200px 200px 25px;
+    }
+    .r1,.r2,.r3,.r4,.r5,.r6{
+        display: block;
+    }
+    .r1c1,.r1c2,.r2c1,.r3c1,.r3c2,.r3c3,.r4c1,.r4c2,.r5c1,.r5c2,.r5c3,.r5c4,.r6c1{
+        width: 100%;
+    }
+    .r1c1,.r1c2,.r4c1,.r4c2{
+        height: 50%;
+    }
+    .r2c1,.r6c1{
+        height: 100%;
+    }
+    .r3c1,.r3c2,.r3c3{
+        height: calc(100% / 3);
+    }
+    .r5c1,.r5c2,.r5c3,.r5c4{
+        height: 25%;
+    }
+}
