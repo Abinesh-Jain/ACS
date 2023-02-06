@@ -39,9 +39,11 @@ a{
     border-color: black;
 }
 .card > h2{
+    color: white;
     display: block;
     background-color:rgba(68,43,46,255) ;
     padding: 10px;
+    margin-top: 0;
 }
 .right{
     background-color:rgba(68,43,46,255);
