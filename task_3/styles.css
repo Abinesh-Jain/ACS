@@ -4,13 +4,14 @@
     height: 100vh;
     background-color: lightgrey;
     padding: 20px;
+    text-align: justify;
 }
 p{
     font-size: 2em;
 }
 img{
     position: absolute;
-    width: 20%;
-    top: 60px;
-    right: 20px;
+    float: right;
+    top: 0;
+    max-width: 100px;
 }
