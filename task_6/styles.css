@@ -47,7 +47,11 @@ form{
 label{
     color: white;
     padding-top: 5px;
-    width: 40%;
+    width: 50%;
+}
+span{
+    margin-right: 10px;
+    float: right;
 }
 input{
     background-color: grey;
