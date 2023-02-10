@@ -49,6 +49,12 @@ label{
     padding-top: 5px;
     width: 50%;
 }
+.short-label{
+    width: 25%;
+}
+.long-input{
+    width: 75%;
+}
 span{
     margin-right: 10px;
     float: right;
