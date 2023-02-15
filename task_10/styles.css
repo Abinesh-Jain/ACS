@@ -76,10 +76,13 @@
 /* CSS for Tablet */
 @media (max-width:768px) and (min-width:481px) {
     .container{
-        grid-template-rows: 100px 200px 300px 100px 50px 25px;
+        grid-template-rows: 100px 200px 300px 100px 100px 25px;
     }
     .r3{
         grid-template-columns: 1fr;
+    }
+    .r5{
+        grid-template-columns: 1fr 1fr;
     }
 }
 /* CSS for Mobile */
